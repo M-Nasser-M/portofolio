@@ -1,0 +1,107 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+/* navigation bar  css  */
+
+nav.navbar {
+    background: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: white;
+}
+
+nav.navbar.active {
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+nav.navbar.active a.nav-link {
+    color: #333;
+    text-shadow: none;
+}
+
+nav.navbar a.nav-link {
+    color: white;
+    text-shadow: none;
+}
+
+nav.navbar a.navbar-brand {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: .2em;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav.navbar.active a.navbar-brand {
+    color: #333;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #68D1C4;
+    border-color: #68D1C4;
+    color: #fff;
+}
+
+
+/* first container */
+
+#home {
+    min-height: 100vh;
+    background-image: linear-gradient(-39deg, #68D1C4 0%, #13547a 100%);
+    ;
+    position: relative;
+}
+
+#home .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#home_p {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+/* technical skills css*/
+
+.progress {
+    height: 7px;
+}
+
+.progress-bar {
+    background-color: #68D1C4;
+}
+
+.pos-abs-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*servecies */
+
+.card>hr {
+    width: 50px;
+    border-color: #68D1C4;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon {
+    color: #68D1C4;
+    font-size: 60px;
+}
